@@ -1,0 +1,34 @@
+.navbar{
+     background: #2F3C91;
+     display: flex;
+     justify-content: space-around;
+     color: #fff;
+     padding-top: 1rem;
+ 
+}
+
+.navbar ul{
+    display: flex;
+    gap: 25px;
+    padding-top: 25px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+
+.sideText {
+    display: flex;
+    align-items: center;
+}
+
+.sideText p {
+    margin-right: 10px; 
+}
+
+.sideImages{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
