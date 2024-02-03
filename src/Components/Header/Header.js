@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Header.module.css"
 import HeroSectionImg from '../../assessts/HeroSectionImg.svg'
 import Navigation from '../Navigation/Navigation'
+import HeroSectionChicken from '../../assessts/HeroSectionChicken.svg'
 
 const Header = () => {
   return (
@@ -16,6 +17,11 @@ const Header = () => {
 <div className={`${styles.HeroButtons}`}>
    <a href='#' >SHOP EGGS</a>
    <a href='#'>SHOP CHICKEN</a>    
+</div>
+
+<div className={`${styles.WeirdChckenImg}`}>
+  <img src={HeroSectionChicken} alt='chichken' />
+
 </div>
 
         </div>

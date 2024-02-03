@@ -22,7 +22,7 @@ const Navigation = () => {
     <li>CONTACT</li>
 </ul>
 
-<div className={`${styles.sideContent}`}>
+<div>
     <div className={`${styles.sideText}`}>
     <p>Customer Care:</p>
     <p>+91 9988776655</p>

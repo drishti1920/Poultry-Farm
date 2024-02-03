@@ -1,5 +1,4 @@
 .navbar{
-     /* background: #2F3C91; */
      display: flex;
      justify-content: space-around;
      color: #fff;
@@ -15,12 +14,21 @@
 
 .navbar li{
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid  #FDD005;
+    margin-bottom: 0;
 }
 
 
 .sideText {
     display: flex;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .sideText p {
@@ -30,5 +38,5 @@
 .sideImages{
     display: flex;
     justify-content: flex-end;
-    gap: 5px;
+    gap: 21px;
 }
