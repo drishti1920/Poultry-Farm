@@ -7,29 +7,29 @@ import HeroSectionChicken from '../../assessts/HeroSectionChicken.svg'
 const Header = () => {
   return (
     <div className={`${styles.Herocontainer}`}>
-      <Navigation/>
+      <Navigation />
       <div className={`${styles.HeroContent}`}>
-             <div className={`${styles.HeroText}`}>
+        <div className={`${styles.HeroText}`}>
 
-<p>No. 1 Egg Poultry Farm in Dubai</p>
-<h1>Freshest Eggs & Chicken in Town</h1>
+          <p>No. 1 Egg Poultry Farm in Dubai</p>
+          <h1>Freshest Eggs & Chicken in Town</h1>
 
-<div className={`${styles.HeroButtons}`}>
-   <a href='#' >SHOP EGGS</a>
-   <a href='#'>SHOP CHICKEN</a>    
-</div>
+          <div className={`${styles.HeroButtons}`}>
+            <a href='#' >SHOP EGGS</a>
+            <a href='#'>SHOP CHICKEN</a>
+          </div>
 
-<div className={`${styles.WeirdChckenImg}`}>
-  <img src={HeroSectionChicken} alt='chichken' />
+          <div className={`${styles.WeirdChckenImg}`}>
+            <img src={HeroSectionChicken} alt='chichken' />
 
-</div>
+          </div>
 
         </div>
-<div className={`${styles.HeroImage}`}>
-<img src={HeroSectionImg} alt="image"/>
+        <div className={`${styles.HeroImage}`}>
+          <img src={HeroSectionImg} alt="image" />
 
-</div>
-</div>
+        </div>
+      </div>
 
     </div>
   )
