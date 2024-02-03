@@ -3,6 +3,7 @@ import styles from "./Header.module.css"
 import HeroSectionImg from '../../assessts/HeroSectionImg.svg'
 import Navigation from '../Navigation/Navigation'
 import HeroSectionChicken from '../../assessts/HeroSectionChicken.svg'
+import HeroEarth from '../../assessts/HeroEarth.svg'
 
 const Header = () => {
   return (
@@ -19,8 +20,10 @@ const Header = () => {
             <a href='#'>SHOP CHICKEN</a>
           </div>
 
-          <div className={`${styles.WeirdChckenImg}`}>
-            <img src={HeroSectionChicken} alt='chichken' />
+          <div >
+            <img src={HeroSectionChicken} className={`${styles.WeirdChckenImg}`} alt='chichken' />
+
+            <img src={HeroEarth} className={`${styles.WeirdEarth}`} alt="earth" />
 
           </div>
 

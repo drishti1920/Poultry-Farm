@@ -37,10 +37,15 @@
     flex-direction: column;
 }
 
-.WeirdChckenImg img {
+.WeirdChckenImg  {
     position: absolute;
     left: 5rem;
+    top: 47rem;
+}
+.WeirdEarth{
+    position: absolute;
     top: 46rem;
+    right: 5rem;
 }
 
 .HeroText p {
