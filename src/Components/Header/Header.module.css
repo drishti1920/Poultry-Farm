@@ -5,7 +5,11 @@
     background-image: url('../../assessts/HeroSectionBG.svg');
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;   
+    display: flex; 
+    flex-direction: column;  
+}
+.HeroContent{
+    display: flex;
 }
 
 .HeroText{
