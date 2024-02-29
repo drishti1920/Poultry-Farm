@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Navbar.module.css';
+import styles from './Navbar.module.scss';
 import logo from '../../assessts/logo.svg'
 import Menu from '../../assessts/Menu.svg'
 import Profile from '../../assessts/Profile.svg'
@@ -10,8 +10,9 @@ const Navigation = () => {
         <div>
 
             <header>
-
+            <div className={`${styles.container}`}>
                 <nav className={`${styles.navbar}`}>
+                    
                     <a href='/' >
                         <img src={logo} />
                     </a>
@@ -36,11 +37,11 @@ const Navigation = () => {
 
                         </div>
                     </div>
-
+                 
                 </nav>
-
+                </div>
             </header>
-
+           
         </div>
     )
 }

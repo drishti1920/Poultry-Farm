@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './TopProducts.module.css';
+import styles from './TopProducts.module.scss';
 import FirstTab from './Tabs/FirstTab';
 import SecondTab from './Tabs/SecondTab';
 

@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+@import '../../Styles/Mixins.scss';
+@import '../../Styles/Variables.scss';
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
 }
 
 
@@ -13,29 +22,29 @@
     background-image: url('../../assessts/HeroSectionBG.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 0;
+
+   
+    .HeroContent{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+    
+    
+    .HeroText {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
 }
 
-.HeroContent {
-    display: flex;
-    margin-top: 3rem;
-}
 
-
-
-.HeroText {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-
-    text-align: left;
-    padding: 0 0 0 188px;
-
-    flex-direction: column;
-}
 
 .WeirdChckenImg  {
     position: absolute;
@@ -50,12 +59,13 @@
 
 .HeroText p {
     color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     padding-bottom: 34px;
+    font-weight: 500;
 }
 
 .HeroText h1 {
-    font-family: 'Protest Revolution', sans-serif;
+    font-family: "Protest Revolution", sans-serif;
     color: #FDD005;
     font-size: 5.6rem;
     padding-bottom: 34px;
@@ -75,7 +85,7 @@
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1rem;
-    padding: 7px 28px;
+    padding: 12px 28px;
 }
 
 .HeroButtons a:first-child {

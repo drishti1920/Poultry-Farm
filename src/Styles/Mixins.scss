@@ -1,0 +1,45 @@
+@mixin flexProp(
+  $direction,
+  $justify,
+  $align,
+  $gap,
+  $paddingTop,
+  $paddingRight,
+  $paddingBottom,
+  $paddingLeft
+) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+  padding: $paddingTop $paddingRight $paddingBottom $paddingLeft;
+}
+
+@mixin buttonProp(
+  $width,
+  $paddingTopBottom,
+  $paddingRightLeft,
+  $borderRadius,
+  $textTransform,
+  $fontWeight,
+  $bgColor,
+  $color
+) {
+  cursor: pointer;
+  width: $width;
+  padding: $paddingTopBottom $paddingRightLeft;
+  border-radius: $borderRadius;
+  text-transform: $textTransform;
+  font-weight: $fontWeight;
+  background-color: $bgColor;
+  color: $color;
+}
+
+// to center any object when the parent div or element have position "relative"
+@mixin centerElement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
